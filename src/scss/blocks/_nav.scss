@@ -1,0 +1,23 @@
+.nav {
+  // .nav__list
+  &__list {
+    @include flex($flex-direction: column);
+    gap: 50px;
+    padding-left: 30px;
+
+    @include media(min, xl) {
+      gap: 105px;
+      flex-direction: row;
+    }
+  }
+
+  // .nav__item
+  &__item {
+    font-size: 20px;
+  }
+  // .nav__link
+  &__link {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}

@@ -1,0 +1,14 @@
+.logo {
+
+	// .logo__img
+	&__img {
+	
+
+		@include media (min, lg) {
+			width: 141px;
+			height: 141px;
+		}
+	}
+
+
+}
