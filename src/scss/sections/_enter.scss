@@ -1,0 +1,71 @@
+.enter {
+  top: 230px;
+  // .enter__wrapper
+  &__wrapper {
+    @include flex(space-between, center, $flex-direction: column);
+    gap: 95px;
+  }
+  // .enter__box
+  &__box {
+    @include flex(space-between, center, $flex-direction: column);
+    gap: 30px;
+  }
+  // .enter__title
+  &__title {
+    font-size: 64px;
+  }
+  // .enter__wrap
+  &__wrap {
+    @include flex(space-between, center);
+    gap: 46px;
+  }
+  // .enter__link
+  &__link {
+    @include flex(center, center);
+    gap: 16px;
+    min-width: 252px;
+    height: 66px;
+
+    background-color: #000000;
+    border-radius: 33px;
+    span {
+      font-family: "Lato-BoldItalic";
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 120.79%;
+      color: $accentColor;
+    }
+
+    svg {
+      width: 45px;
+      height: 45px;
+    }
+  }
+  // .enter__box-content
+  &__box-content {
+    @include flex(space-between, $flex-direction: column);
+    gap: 60px;
+  }
+  // .enter__inner
+  &__inner {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+  // .enter__subtitle
+  &__subtitle {
+    font-size: 40px;
+  }
+  // .enter__text
+  &__text {
+    line-height: 122.79%;
+    max-width: 560px;
+  }
+  // .enter__btn
+  &__btn {
+    width: 307px;
+    height: 88px;
+
+    align-self: center;
+  }
+}

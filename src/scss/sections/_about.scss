@@ -1,0 +1,12 @@
+.about {
+	top: 200px;
+  // .about__wrapper
+  &__wrapper {
+    @include flex(center, center);
+  }
+  // .about__title
+  &__title {
+    font-size: 64px;
+    line-height: 120.79%;
+  }
+}
