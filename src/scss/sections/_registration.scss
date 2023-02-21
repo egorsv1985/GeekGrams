@@ -1,0 +1,142 @@
+.registration {
+  top: 230px;
+  // .registration__wrapper
+  &__wrapper {
+    @include flex(space-between, center, $flex-direction: column);
+    gap: 120px;
+  }
+  // .registration__box
+  &__box {
+    @include flex(space-between, center, $flex-direction: column);
+    gap: 30px;
+  }
+  // .registration__title
+  &__title {
+    font-size: 64px;
+    line-height: 120.79%;
+  }
+  // .registration__wrap
+  &__wrap {
+    @include flex(space-between, center);
+    gap: 46px;
+	
+  }
+  // .registration__link
+  &__link {
+    @include flex(center, center);
+    gap: 16px;
+    min-width: 252px;
+    height: 66px;
+
+    background-color: #000000;
+    border-radius: 33px;
+    span {
+      font-family: "Lato-BoldItalic";
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 120.79%;
+      color: $accentColor;
+    }
+
+    svg {
+      width: 45px;
+      height: 45px;
+    }
+  }
+  // .registration__box-content
+  &__box-content {
+	@include flex(space-between);
+	gap: 240px;
+  }
+  // .registration__inner
+  &__inner {
+	display: flex;
+	flex-direction: column;
+	gap: 25px;
+  }
+  // .registration__subtitle
+  &__subtitle {
+    font-size: 40px;
+  }
+  // .registration__text
+  &__text {
+    line-height: 122.79%;
+	max-width: 560px;
+  }
+  // .registration__form
+  &__form {
+    @include flex(space-between, center, $flex-direction: column);
+    gap: 20px;
+
+	padding: 30px 30px 55px;
+
+    min-width: 467px;
+    height: 391px;
+
+    background-color: #000000;
+    border-radius: 50px;
+  }
+
+  .form {
+    // .form__subtitle
+    &__subtitle {
+      font-size: 32px;
+
+      color: $accentColor;
+    }
+    // .form__box
+    &__box {
+      @include flex(center, center, $flex-direction: column);
+      gap: 20px;
+    }
+    // .form__wrap
+    &__wrap {
+      @include flex (center, center, $flex-direction: column);
+    }
+
+    // .form__input
+    &__input {
+      @include wh(372px, 48px);
+     
+
+      border: 3px solid #868686;
+
+      background-color: transparent;
+
+      padding-left: 30px;
+
+      &:focus,
+      &:focus-visible {
+        border-color: #0f2f2e;
+      }
+    }
+    &__input::placeholder,
+    &__textarea::placeholder {
+      font-family: "Lato-Bold";
+
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 120.79%;
+
+      color: #959595;
+    }
+
+    // .form__btn
+    &__btn {
+      @include flex(center, center);
+      width: 372px;
+      height: 73px;
+
+      background: linear-gradient(92.21deg, #919eaf 0%, #07426a 100%);
+      border-radius: 267px;
+
+      font-family: "Lato-Regular";
+
+      font-weight: 400;
+      font-size: 40px;
+      line-height: 120.79%;
+
+      color: $accentColor;
+    }
+  }
+}

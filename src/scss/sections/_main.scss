@@ -1,38 +1,30 @@
 .main {
-  position: relative;
-  top: 245px;
   // .main__wrapper
   &__wrapper {
     @include flex(space-between, center, $flex-direction: column);
-	gap: 33px;
+    gap: 33px;
   }
   // .main__content
   &__content {
     @include flex(flex-start, center, wrap);
-	gap: 82px;
-	width: 100%;
-	padding-left: 40px;
+    gap: 82px;
+    width: 100%;
+    padding-left: 40px;
   }
   // .main__box
   &__box {
-	@include flex(space-between, center, $flex-direction: column);
-	
-
+    @include flex(space-between, center, $flex-direction: column);
   }
   // .main__title
   &__title {
-
-max-width: 645px;
-
-
-
+    max-width: 645px;
   }
   // .main__link
   &__link {
   }
   // .main__text
   &__text {
-	max-width: 510px;
+    max-width: 510px;
   }
   // .main__inner
   &__inner {
@@ -40,21 +32,19 @@ max-width: 645px;
   }
   // .main__subtitle
   &__subtitle {
-	margin-bottom: 28px;
-	align-self: flex-start;
-   
+    margin-bottom: 28px;
+    align-self: flex-start;
   }
   // .main__wrap
   &__wrap {
     @include flex(space-between, flex-start);
-	.main__text{
-		max-width: 450px;
-		
-	}
-	.main__box{
-		align-items: flex-start;
-		max-width: 33%;
-	}
+    .main__text {
+      max-width: 450px;
+    }
+    .main__box {
+      align-items: flex-start;
+      max-width: 33%;
+    }
   }
   // .main__desk
   &__desk {
@@ -64,7 +54,6 @@ max-width: 645px;
     line-height: 43px;
     letter-spacing: 0em;
     text-align: left;
-	align-self: flex-start;
-  
+    align-self: flex-start;
   }
 }

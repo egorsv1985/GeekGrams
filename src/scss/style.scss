@@ -161,6 +161,7 @@ body {
 // sections
 
 @import "./sections/main";
+@import "./sections/registration";
 @import "./sections/forms";
 @import "./components/popup";
 
@@ -169,4 +170,4 @@ body {
 @import "./blocks/nav";
 @import "./blocks/logo";
 @import "./blocks/open-burger";
-@import "./blocks/form";
+
