@@ -71,135 +71,9 @@
   font-style: normal;
 }
 @font-face {
-  font-family: Lato;
+  font-family: "Inter-Regular";
   font-display: swap;
-  src: url("../fonts/Lato-Italic.woff2") format("woff2"), url("../fonts/Lato-Italic.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: Lato;
-  font-display: swap;
-  src: url("../fonts/Lato-Light.woff2") format("woff2"), url("../fonts/Lato-Light.woff") format("woff");
-  font-weight: 300;
-  font-style: normal;
-}
-@font-face {
-  font-family: Lato;
-  font-display: swap;
-  src: url("../fonts/Lato-LightItalic.woff2") format("woff2"), url("../fonts/Lato-LightItalic.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: Lato;
-  font-display: swap;
-  src: url("../fonts/Lato-Medium.woff2") format("woff2"), url("../fonts/Lato-Medium.woff") format("woff");
-  font-weight: 500;
-  font-style: normal;
-}
-@font-face {
-  font-family: Lato;
-  font-display: swap;
-  src: url("../fonts/Lato-MediumItalic.woff2") format("woff2"), url("../fonts/Lato-MediumItalic.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: Lato;
-  font-display: swap;
-  src: url("../fonts/Lato-SemiBold.woff2") format("woff2"), url("../fonts/Lato-SemiBold.woff") format("woff");
-  font-weight: 600;
-  font-style: normal;
-}
-@font-face {
-  font-family: Lato;
-  font-display: swap;
-  src: url("../fonts/Lato-Thin.woff2") format("woff2"), url("../fonts/Lato-Thin.woff") format("woff");
-  font-weight: 100;
-  font-style: normal;
-}
-@font-face {
-  font-family: Lato;
-  font-display: swap;
-  src: url("../fonts/Lato-SemiBoldItalic.woff2") format("woff2"), url("../fonts/Lato-SemiBoldItalic.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: Lato;
-  font-display: swap;
-  src: url("../fonts/Lato-ThinItalic.woff2") format("woff2"), url("../fonts/Lato-ThinItalic.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: NotoSansArabic;
-  font-display: swap;
-  src: url("../fonts/NotoSansArabic-Black.woff2") format("woff2"), url("../fonts/NotoSansArabic-Black.woff") format("woff");
-  font-weight: 900;
-  font-style: normal;
-}
-@font-face {
-  font-family: NotoSansArabic;
-  font-display: swap;
-  src: url("../fonts/NotoSansArabic-Bold.woff2") format("woff2"), url("../fonts/NotoSansArabic-Bold.woff") format("woff");
-  font-weight: 700;
-  font-style: normal;
-}
-@font-face {
-  font-family: NotoSansArabic;
-  font-display: swap;
-  src: url("../fonts/NotoSansArabic-ExtraBold.woff2") format("woff2"), url("../fonts/NotoSansArabic-ExtraBold.woff") format("woff");
-  font-weight: 800;
-  font-style: normal;
-}
-@font-face {
-  font-family: NotoSansArabic;
-  font-display: swap;
-  src: url("../fonts/NotoSansArabic-ExtraLight.woff2") format("woff2"), url("../fonts/NotoSansArabic-ExtraLight.woff") format("woff");
-  font-weight: 200;
-  font-style: normal;
-}
-@font-face {
-  font-family: NotoSansArabic;
-  font-display: swap;
-  src: url("../fonts/NotoSansArabic-Light.woff2") format("woff2"), url("../fonts/NotoSansArabic-Light.woff") format("woff");
-  font-weight: 300;
-  font-style: normal;
-}
-@font-face {
-  font-family: NotoSansArabic;
-  font-display: swap;
-  src: url("../fonts/NotoSansArabic-Medium.woff2") format("woff2"), url("../fonts/NotoSansArabic-Medium.woff") format("woff");
-  font-weight: 500;
-  font-style: normal;
-}
-@font-face {
-  font-family: NotoSansArabic;
-  font-display: swap;
-  src: url("../fonts/NotoSansArabic-SemiBold.woff2") format("woff2"), url("../fonts/NotoSansArabic-SemiBold.woff") format("woff");
-  font-weight: 600;
-  font-style: normal;
-}
-@font-face {
-  font-family: NotoSansArabic;
-  font-display: swap;
-  src: url("../fonts/NotoSansArabic-Thin.woff2") format("woff2"), url("../fonts/NotoSansArabic-Thin.woff") format("woff");
-  font-weight: 100;
-  font-style: normal;
-}
-@font-face {
-  font-family: Tuffy;
-  font-display: swap;
-  src: url("../fonts/Tuffy-BoldItalic.woff2") format("woff2"), url("../fonts/Tuffy-BoldItalic.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: Tuffy;
-  font-display: swap;
-  src: url("../fonts/Tuffy-Italic.woff2") format("woff2"), url("../fonts/Tuffy-Italic.woff") format("woff");
+  src: url("../fonts/Inter-Regular.woff2") format("woff2"), url("../fonts/Inter-Regular.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
@@ -689,7 +563,6 @@ section {
 }
 .registration__title {
   font-size: 64px;
-  line-height: 120.79%;
 }
 .registration__wrap {
   display: flex;
@@ -796,66 +669,130 @@ section {
   color: #fff;
 }
 
-.forms__wrapper {
-  background-color: #53CD8B;
-  border-radius: 30px;
+.about {
+  top: 200px;
+}
+.about__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about__title {
+  font-size: 64px;
+  line-height: 120.79%;
+}
+
+.canal {
+  top: 200px;
+}
+.canal__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+.canal__title {
+  font-size: 64px;
+  text-align: center;
+  margin-bottom: 16px;
+}
+.canal__box-conent {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 40px;
+  max-width: 65%;
+}
+.canal__text {
+  font-family: "Inter-Regular";
+  line-height: 44px;
+}
+.canal__link {
+  width: 255px;
+  height: 88px;
+}
+.canal__box-image {
+  position: absolute;
+  top: 7px;
+  right: 38px;
+}
+.canal__image {
+  width: 100%;
+  height: 100%;
+}
+
+.enter {
+  top: 230px;
+}
+.enter__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  gap: 95px;
+}
+.enter__box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+.enter__title {
+  font-size: 64px;
+}
+.enter__wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 46px;
+}
+.enter__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  min-width: 252px;
+  height: 66px;
+  background-color: #000000;
+  border-radius: 33px;
+}
+.enter__link span {
+  font-family: "Lato-BoldItalic";
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 120.79%;
+  color: #fff;
+}
+.enter__link svg {
+  width: 45px;
+  height: 45px;
+}
+.enter__box-content {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 60px;
+}
+.enter__inner {
   display: flex;
   flex-direction: column;
-  padding: 30px 20px 35px;
+  gap: 25px;
 }
-@media only screen and (min-width: 1023px) {
-  .forms__wrapper {
-    border-radius: 40px;
-    padding: 50px 60px 55px;
-  }
+.enter__subtitle {
+  font-size: 40px;
 }
-.forms__content {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 30px;
+.enter__text {
+  line-height: 122.79%;
+  max-width: 560px;
 }
-@media only screen and (min-width: 575px) {
-  .forms__content {
-    flex-direction: row;
-    justify-content: center;
-    gap: 20px;
-  }
+.enter__btn {
+  width: 307px;
+  height: 88px;
+  align-self: center;
 }
-@media only screen and (min-width: 1023px) {
-  .forms__content {
-    gap: 110px;
-    margin-bottom: 50px;
-  }
-}
-.forms__title {
-  color: #FFF;
-  margin-bottom: 20px;
-}
-@media only screen and (min-width: 575px) {
-  .forms__title {
-    margin-bottom: 0;
-    width: 50%;
-  }
-}
-@media only screen and (min-width: 1023px) {
-  .forms__title {
-    text-align: left;
-  }
-}
-.forms__text {
-  color: #FFF;
-}
-@media only screen and (min-width: 575px) {
-  .forms__text {
-    max-width: 50%;
-    text-align: left;
-  }
-}
-@media only screen and (min-width: 1023px) {
-  .forms__text {
-    max-width: unset;
-  }
-}
+
 .popup__content {
   background-color: #0F2F2E;
   border-radius: 40px;
