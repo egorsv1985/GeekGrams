@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Главная</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230221131817">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="container header__wrapper">
+				<div class="header__block">
+					<a href="home.html" class="header__logo logo">
+						<img src="img/icons/logo.svg" alt="logo" class="logo__img" width="70px" height="70px" />
+					</a>
+					<button type="button" class="header__burger burger">
+						<div class="burger__inner">
+							<span></span>
+						</div>
+					</button>
+				</div>
+
+				<div class="header__inner">
+					<div class="header__box">
+						<h2 class="header__subtitle subtitle">GeekGrams</h2>
+						<a href="#" class="header__link">
+							<img src="img/icons/Telegram.svg" alt="telegram" class="header__img" width="59px" height="59px" />
+						</a>
+					</div>
+					<nav class="header__nav nav">
+						<ul class="nav__list">
+							<li class="nav__item">
+								<a href="#" class="nav__link">Войти</a>
+							</li>
+							<li class="nav__item">
+								<a href="registration.html" class="nav__link">Регистрация</a>
+							</li>
+							<li class="nav__item">
+								<a href="#" class="nav__link">О нас</a>
+							</li>
+							<li class="nav__item">
+								<a href="#" class="nav__link">Отзывы</a>
+							</li>
+							<li class="nav__item">
+								<a href="#" class="nav__link">Техподдержка</a>
+							</li>
+							<li class="nav__item">
+								<a href="#" class="nav__link">Настройки</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
+
+		<main>
+			<section class="registration">
+				<div class="registration__wrapper container">
+					<div class="registration__box">
+						<h1 class="registration__title title">Регистрация</h1>
+						<div class="registration__wrap">
+							<a href="#" class="registration__link">
+								<svg width="45" height="45" viewBox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M42.3 22.9688C42.3 21.5063 42.1688 20.1 41.925 18.75H22.5V26.7281H33.6C33.1219 29.3063 31.6688 31.4906 29.4844 32.9531V38.1281H36.15C40.05 34.5375 42.3 29.25 42.3 22.9688Z" fill="#4285F4" />
+									<path d="M22.5 43.125C28.0688 43.125 32.7375 41.2781 36.15 38.1281L29.4844 32.9531C27.6375 34.1906 25.275 34.9219 22.5 34.9219C17.1281 34.9219 12.5813 31.2938 10.9594 26.4188H4.06876V31.7625C7.46251 38.5031 14.4375 43.125 22.5 43.125Z" fill="#34A853" />
+									<path d="M10.9594 26.4187C10.5469 25.1812 10.3125 23.8594 10.3125 22.5C10.3125 21.1406 10.5469 19.8187 10.9594 18.5812V13.2375H4.06875C2.625 16.1116 1.87373 19.2836 1.875 22.5C1.875 25.8281 2.67188 28.9781 4.06875 31.7625L10.9594 26.4187Z" fill="#FBBC05" />
+									<path d="M22.5 10.0781C25.5281 10.0781 28.2469 11.1187 30.3844 13.1625L36.3 7.24687C32.7281 3.91875 28.0594 1.875 22.5 1.875C14.4375 1.875 7.46251 6.49687 4.06876 13.2375L10.9594 18.5812C12.5813 13.7063 17.1281 10.0781 22.5 10.0781Z" fill="#EA4335" />
+								</svg>
+								<span>Google</span>
+							</a>
+							<a href="#" class="registration__link">
+								<svg width="45" height="45" viewBox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+									<rect width="45" height="45" fill="url(#pattern0)" />
+									<defs>
+										<pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+											<use xlink:href="#image0_55_112" transform="scale(0.0131579)" />
+										</pattern>
+										<image id="image0_55_112" width="76" height="76" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEwAAABMCAYAAADHl1ErAAACiElEQVR42u3cMW/TQBgG4PfsjlZYPRgmT+nikUhIMEF+QMocKYwMBJZugNShS+UM3SiSxyrtD0iZq8LYpZ0yZshcMlIfQ0Sh0Ny5EXf22e+3tFKjyn107+X77qKKH08fSrAKl0cCghGMYAQjGItgBCMYwQjGIhjBCEYwl2uj9CeINyGSxxBxG4jbQPAAIozu/Wuunz2qMVjQgugNILpba+E0aoWJ/hBebwAELUZSWWEEf+cTEG9yDyuENRoDjsWvHLA1sOR8tvzm11dguddVANw4mNcf6v/QxRXk5Ajy9ARyegksru7e+/rDmoOFEUR3S72aTr8g3317J1LjIqlbETJLkWcpO/2bGD15sfqH85lzWGbBko6y13IRyyiYiNuaveuEYH+PPytreuHMJm9vhSlaCbn47mzjWsrxjnC44zcGJv/o0u8V18auMNUeFbScnSvNgU0v1u/RGhnJFTPhb7DnBPtnoFb0WiLpQPQGBLu1yiZH2llT1+A2C+z8G+T5V+Xm7+0cOIVmvA/Ld9+p3zHDCN5orD0Gak7jOp8h3/+gHaO87T14r99Xvkez0unLyTFkgdMJ0RvAP5hUukezNhrlWVoIDWEE//AMogLH0aXPknmWIt//WOzB+kP4h2eVi6j14Vsef0b+qnvrRmjtEasppxVyeonrNy+1ryvymkaAAdDfJmVp8VVYe7AwUt8oVfiCpBQwfzR2LoqlgQnNTXhVo1gOmMNRLAXM5ShaB3M9inbBko7zUbQHFrTgb+85H0VrYHWJoh2wpLP8AHANomgerGZRNA5WtyiaBathFG8WAv+VjAunFQQjGItgBCMYwQjGIhjBCEYwghGMRbD/VBuOPGdlzux+AughyfOjYh4+AAAAAElFTkSuQmCC" />
+									</defs>
+								</svg>
+								<span>Яндекс</span>
+							</a>
+							<a href="#" class="registration__link">
+								<svg width="59" height="59" viewBox="0 0 59 59" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<g clip-path="url(#clip0_3_10)">
+										<path d="M29.523 59.046C45.8281 59.046 59.046 45.8281 59.046 29.523C59.046 13.2179 45.8281 0 29.523 0C13.2179 0 0 13.2179 0 29.523C0 45.8281 13.2179 59.046 29.523 59.046Z" fill="url(#paint0_linear_3_10)" />
+										<path fill-rule="evenodd" clip-rule="evenodd" d="M13.3359 29.2011C21.9353 25.4302 27.6835 22.993 30.5807 21.7973C38.7662 18.3944 40.4676 17.7966 41.5713 17.7506C41.8012 17.7506 42.3531 17.7966 42.721 18.0725C42.9969 18.3024 43.0888 18.6243 43.1348 18.8542C43.1808 19.0842 43.2268 19.59 43.1808 20.0039C42.721 24.6485 40.8355 36.007 39.8238 41.2034C39.41 43.4107 38.5822 44.1465 37.8005 44.2385C36.099 44.3765 34.7654 43.0888 33.1099 42.0312C30.5347 40.3297 29.0631 39.272 26.5339 37.6165C23.6368 35.6851 25.5222 34.6274 27.1777 32.9259C27.5916 32.4661 35.1793 25.6142 35.3172 24.9704C35.3172 24.8784 35.3632 24.6025 35.1793 24.4645C34.9953 24.3266 34.7654 24.3726 34.5814 24.4185C34.3055 24.4645 30.1668 27.2237 22.1192 32.65C20.9236 33.4778 19.8659 33.8457 18.9002 33.8457C17.8425 33.8457 15.8192 33.2478 14.3016 32.742C12.4622 32.1442 10.9906 31.8223 11.1286 30.8106C11.2206 30.3047 11.9563 29.7529 13.3359 29.2011Z" fill="white" />
+									</g>
+									<defs>
+										<linearGradient id="paint0_linear_3_10" x1="0" y1="29.5016" x2="59.0033" y2="29.5016" gradientUnits="userSpaceOnUse">
+											<stop stop-color="#2AABEE" />
+											<stop offset="1" stop-color="#229ED9" />
+										</linearGradient>
+										<clipPath id="clip0_3_10">
+											<rect width="59" height="59" fill="white" />
+										</clipPath>
+									</defs>
+								</svg>
+								<span>Telegram</span>
+							</a>
+						</div>
+					</div>
+					<div class="registration__box-content">
+						<div class="registration__inner">
+							<h3 class="registration__subtitle subtitle">
+								Все еще не знаете, с чего начать?
+							</h3>
+							<p class="registration__text text text--big">
+								Оставьте заявку прямо здесь и сейчас и вам мигом ответят наши
+								модераторы в Telegram.
+							</p>
+						</div>
+						<form action="#" class="registration__form form">
+
+							<div class="form__box">
+								<h3 class="form__subtitle subtitle">Заявка в Telegram</h3>
+								<div class="form__wrap">
+									<label for="name-telegram" class="form__label"></label>
+									<input type="text" class="form__input" id="name-telegram" name="name-telegram" placeholder="Имя пользователя (в телеграмме)" />
+								</div>
+								<div class="form__wrap">
+									<label for="name" class="form__label"></label>
+									<input type="text" class="form__input" id="name" name="name" placeholder="Как к Вам обращаться" />
+								</div>
+
+							</div>
+							<a class="form__btn btn" href="#" type="submit" role="button">Отправить</a>
+						</form>
+					</div>
+				</div>
+			</section>
+
+		</main>
+
+
+	</div>
+	<div id="callback" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close">
+					<svg width="45" height="46" viewBox="0 0 45 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path fill-rule="evenodd" clip-rule="evenodd" d="M22.4999 24.6545L32.7543 34.9117L34.7455 32.9232L24.4883 22.666L34.7455 12.4117L32.7571 10.4204L22.4999 20.6776L12.2455 10.4204L10.2571 12.4117L20.5115 22.666L10.2571 32.9204L12.2455 34.9117L22.4999 24.6545Z" fill="white" />
+					</svg>
+				</button>
+
+				<h2 class="popup__title title">Запишитесь на прием <span class="title--green"> к нашим
+						специалистам</span>
+				</h2>
+				<h3 class="popup__subtitle subtitle">Заполните форму ниже и в ближайшее время с Вами свяжется наш
+					специалист, чтобы уточнить подробности</h3>
+				<form action="#" class="forms__form form">
+					<div class="form__box">
+						<div class="form__wrap">
+							<label for="name" class="form__label"></label>
+							<input type="text" class="form__input" id="name" name="name" placeholder="Имя">
+						</div>
+						<div class="form__wrap">
+							<label for="tel" class="form__label"></label>
+							<input type="tel" class="form__input" id="tel" name="tel" placeholder="Телефон">
+						</div>
+					</div>
+					<div class="form__inner">
+						<a class="form__btn btn btn-primary" href="#" type="submit" role="button">Оставить заявку</a>
+						<p class="form__text text">Нажимая кнопку “Отправит запрос” вы подстверждаете свое <a href="#" class="text--green">согласие на обработку персональных данных</a></p>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<script src="js/app.min.js?_v=20230221131817"></script>
+</body>
+
+</html>
