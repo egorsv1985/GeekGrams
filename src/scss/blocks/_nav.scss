@@ -20,4 +20,39 @@
     font-size: 20px;
     line-height: 24px;
   }
+  // .nav__item--tooltip
+  &__item--tooltip {
+    position: relative;
+    &:hover .nav__tooltip-box,
+    &:focus .nav__tooltip-box {
+      visibility: visible;
+      opacity: 1;
+    }
+  }
+  // .nav__tooltip-box
+  &__tooltip-box {
+    @include flex($flex-direction: column);
+    gap: 30px;
+    visibility: hidden;
+
+    position: absolute;
+    width: 320px;
+
+    background-color: $accentColor;
+    border-radius: 30px;
+
+    padding: 20px;
+    z-index: 1;
+    top: 150%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  // .nav__tooltiptext
+  &__tooltiptext {
+    font-family: "Lato-Regular";
+    font-size: 20px;
+    line-height: 120.79%;
+  }
 }

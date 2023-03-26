@@ -1,12 +1,27 @@
 .about {
-	top: 200px;
+  top: 200px;
   // .about__wrapper
   &__wrapper {
-    @include flex(center, center);
+    @include flex(center, center, $flex-direction: column);
+    gap: 90px;
   }
   // .about__title
   &__title {
     font-size: 64px;
     line-height: 120.79%;
+  }
+  // .about__box-conent
+  &__box-conent {
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+  }
+  // .about__text
+  &__text {
+    padding: 0 30px;
+    font-family: "Inter-Regular";
+
+    font-size: 32px;
+    line-height: 39px;
   }
 }
